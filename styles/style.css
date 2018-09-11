@@ -1,0 +1,177 @@
+body {
+	padding: 0 auto;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+}
+
+h1 {
+	text-decoration: overline;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+p {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex-container {
+	max-width: 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+.flex-item {
+	text-align: center;
+	padding: 40px;
+	margin: 50px;
+}
+
+.image {
+	width: 500px;
+	height: 300px;
+	margin: 30px;
+	border: 10px solid #FFF;
+	-webkit-box-shadow: 9px 13px 33px 0px rgba(0,0,0,0.30);
+	-moz-box-shadow: 9px 13px 33px 0px rgba(0,0,0,0.30);
+	box-shadow: 9px 13px 33px 0px rgba(0,0,0,0.30);
+}
+
+/* Breakpoint: Mobiel */
+
+@media screen and (min-width: 360px) {
+	.image {
+		width: 200px;
+		height: 125px;
+		margin: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.flex-item {
+		margin: 20px;
+	}
+	.flex-item p {
+		font-size: 12px;
+		width: 100%;
+	}
+	.flex-item h1 {
+		font-size: 30px;
+	}
+	.flex-item h2 {
+		font-size: 20px;
+	}
+}
+
+/* Breakpoint: Tablet */
+
+@media screen and (min-width: 768px) {
+	.image {
+		width: 350px;
+		height: 225px;
+		margin: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.flex-item {
+		margin: 30px;
+	}
+	.flex-item p {
+		font-size: 14px;
+		width: 90%;
+	}
+	.flex-item h1 {
+		font-size: 35px;
+	}
+	.flex-item h2 {
+		font-size: 25px;
+	}
+}
+
+/* Breakpoint: Laptop */
+
+@media screen and (min-width: 1024px) {
+	.image {
+		width: 400px;
+		height: 250px;
+		margin: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.flex-item {
+		margin: 40px;
+	}
+	.flex-item p {
+		font-size: 15px;
+		width: 80%;
+	}
+	.flex-item h1 {
+		font-size: 38px;
+	}
+	.flex-item h2 {
+		font-size: 28px;
+	}
+}
+
+/* Breakpoint: Desktop */
+
+@media screen and (min-width: 1366px) {
+	.image {
+		width: 400px;
+		height: 250px;
+		margin: 30px;
+	}
+	.flex-item {
+		margin: 50px;
+	}
+	.flex-item p {
+		font-size: 16px;
+		width: 70%;
+	}
+	.flex-item h1 {
+		font-size: 40px;
+	}
+	.flex-item h2 {
+		font-size: 30px;
+	}
+}
+
+/* Kleuren */
+
+.red {
+	background-color: #DB4A45;
+}
+
+.groen {
+	background-color: #258852;
+}
+
+.blue {
+	background-color: #515FDE;
+}
+
+.orange {
+	background-color: #D77B50;
+}
+
+.purple {
+	background-color: #862E80;
+}
+
+.pink {
+	background-color: #D74964;
+}
+
+.yellow {
+	background-color: #D9B857;
+}
+
+.ocean {
+	background-color: #2E7C86;
+}
