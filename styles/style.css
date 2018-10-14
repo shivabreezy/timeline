@@ -44,32 +44,31 @@ p {
 	box-shadow: 9px 13px 33px 0px rgba(0,0,0,0.30);
 }
 
-/* Breakpoint: Mobiel */
-
-@media screen and (min-width: 360px) {
-	.image {
-		width: 200px;
-		height: 125px;
-		margin: 30px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.flex-item {
-		margin: 20px;
-	}
-	.flex-item p {
-		font-size: 12px;
-		width: 100%;
-	}
-	.flex-item h1 {
-		font-size: 30px;
-	}
-	.flex-item h2 {
-		font-size: 20px;
-	}
+.image {
+	width: 200px;
+	height: 125px;
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-/* Breakpoint: Tablet */
+.flex-item {
+	margin: 20px;
+}
+	
+.flex-item p {
+	font-size: 12px;
+	width: 100%;
+}
+	
+.flex-item h1 {
+	font-size: 30px;
+}
+	
+.flex-item h2 {
+	font-size: 20px;
+}
+
 
 @media screen and (min-width: 768px) {
 	.image {
